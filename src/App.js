@@ -1,7 +1,8 @@
 import {BrowserRouter as Router, Route, Redirect, Switch} from 'react-router-dom';
 import './App.css';
 import NewPlace from './places/pages/NewPlace';
-import MainNavigation from './shared/navigation/MainNavigation';
+import MainNavigation from './shared/components/Navigation/MainNavigation';
+
 import UsersPage from './users/pages/Users';
 
 function App() {
