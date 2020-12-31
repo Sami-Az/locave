@@ -23,7 +23,7 @@ const PlaceItem = props => {
         footer={<Button onClick={closeMapHandler}>CLOSE</Button>}
       >
         <div className="map-container">
-          <h2>MAP HERE</h2>
+          <div className="map-container__background-img"></div>
         </div>
       </Modal>
       <li className="place-item">

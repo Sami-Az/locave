@@ -53,6 +53,14 @@
     width: 100%;
   }
   
+  .map-container__background-img {
+    background-image: url('https://www.legalgenealogist.com/wordpress/wp-content/uploads/2019/09/GMaps.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 100%;
+  }
+
   @media (min-width: 768px) {
     .place-item__image {
       height: 20rem;
